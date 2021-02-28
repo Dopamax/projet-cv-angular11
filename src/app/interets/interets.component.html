@@ -1,0 +1,32 @@
+<div class="row mt-1 my-3">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div class="class-macarte monshadow myborder p-4">
+            <div class="row">
+                <div class="col-md-12">
+                      <h3 class="fontCentury text-uppercase monshadow bg-info border border-dark border-r-15 p-2">Interets</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   
+                    <div class="row p-1 m-2">
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div *ngFor="let n of nbr" class="row my-4 p-3 border-r-15 border border-dark bg-light">
+                                    <div *ngFor="let i of interets" class="col-md-12">
+                                        <h5 class="float-left text-justified fontCentury">{{i[n]}}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

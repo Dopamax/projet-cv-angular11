@@ -1,0 +1,17 @@
+.class-macarte{
+    background-color: white;
+    border-radius: 10px;
+
+}
+.monshadow{
+    box-shadow: rgba(1, 31, 65, 0.616) 4px 6px 10px 4px;
+}
+.myborder{
+    border:solid 2px black;
+}
+.fontCentury{
+    font-family: 'Century Gothic';
+}
+.border-r-15{
+    border-radius: 15px;
+}

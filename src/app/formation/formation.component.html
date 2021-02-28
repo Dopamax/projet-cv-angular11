@@ -1,0 +1,11 @@
+<div class="row p-1 m-2">
+    <div class="container">
+        <div class="col-md-12">
+            <div *ngFor="let n of nbr" class="row my-4 p-3 border-r-15 border border-dark bg-light">
+                <div *ngFor="let f of formation" class="col-md-12">
+                    <h5 class="float-left text-justified fontCentury">{{f[n]}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
